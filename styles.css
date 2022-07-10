@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body 
+{
+background-color: gainsboro;
+color:rgb(114, 151, 160);
+font-size:17px;
+font-weight: normal;
+font-family: 'Roboto Condensed', sans-serif;
+/*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+}
+a { color: black;
+text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+
+a:active{color: aqua;}
+
+a:visited{color: gray}
+.avatar {
+    width: 250px;
+    border-radius: 35px;
+    box-shadow: 5px 5px 12px rgba(0,0,0,0.25);
+}
+.info {
+    display:flex;
+}
+@media (max-width:1000px){
+    .info {
+        text-align:center ;
+        display:block;
+    }
+}
+.info-text {
+    margin-left: 15px;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+.info p {
+    color: rgb(190, 154, 110);
+    margin: 0;
+    font-style: italic;
+    text-decoration: none;
+    word-spacing: 2px;
+}
+.info {
+    margin-bottom: 15px;
+}
+.container{
+    max-width: 750px; ;
+    margin: auto;
+    padding-top: 20px;
+}
+.social {
+    background: goldenrod;
+    /*padding: 15px ;*/
+    padding: 15px 20px 25px 30px ;
+    border:5px solid red;
+    margin:5px ;
+    border-bottom-style: double;
+    border-top-width:15px ;
+    border-right-color: aqua;
+}
+.card {
+    padding: 15px 20px;
+    background: blue;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.card h2 {
+    margin-bottom: 15px;
+}
+.bg-green {
+    background: #e5ffe7 ;
+}
+.bg-yellow {
+    background: #fff9dc
+}
+.list { padding: 0 20px;}
+.list li{ color: #86898f;
+margin-bottom: 10px;}
+.table {width: 100%;}
+.table td : {
+    padding-bottom: 5px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3)
+{
+    color:rgba(138, 106, 66, 0.616);
+}
+.link-list{
+    list-style: none;
+    padding-left: 10px;
+}
+.link-list li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc  ;
+}
+.contakt h2{
+    text-align: center;
+}
+.form-group label{
+display:block;
+font-size: 14px;
+color: #86898f;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color:black;
+    padding: 15px 0 20px;
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+}
+.btn{
+    color: wheat;
+    padding: 10px 20px;
+    background: black;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.9 ;
+}
